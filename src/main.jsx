@@ -45,7 +45,7 @@ const router = createBrowserRouter([
       {
         path: "courseDetails/:id",
         element: <CourseDetails></CourseDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/courses/${params.id}`)
+        loader: ({ params }) => fetch(`https://online-learning-platform-server-red.vercel.app/courses/${params.id}`)
       },
       {
         path: 'login',

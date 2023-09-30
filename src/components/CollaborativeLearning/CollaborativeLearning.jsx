@@ -12,7 +12,7 @@ const CollaborativeLearning = () => {
         const comment = form.name.value;
         
     const userComment = {user:user.displayName, email:user.email, comment:comment}
-        fetch('http://localhost:5000/collaboration', {
+        fetch('https://online-learning-platform-server-red.vercel.app/collaboration', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -27,7 +27,7 @@ const CollaborativeLearning = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:5000/collaboration')
+        fetch('https://online-learning-platform-server-red.vercel.app/collaboration')
             .then(res => res.json())
             .then(data => {
                 console.log(data)

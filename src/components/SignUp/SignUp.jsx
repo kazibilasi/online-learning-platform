@@ -27,7 +27,7 @@ const SignUp = () => {
             .then(result => {
                 const loggedUser = result.user;
                 console.log(loggedUser);
-                fetch('http://localhost:5000/users', {
+                fetch('https://online-learning-platform-server-red.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

@@ -10,7 +10,7 @@ const useAdmin = () => {
     enabled: !loading && !!user?.email, 
     queryFn: async () => {
       const response = await fetch(
-        `http://localhost:5000/users/admin/${user?.email}`,
+        `https://online-learning-platform-server-red.vercel.app/users/admin/${user?.email}`,
         {
           headers: {
             authorization: `bearer ${token}`,

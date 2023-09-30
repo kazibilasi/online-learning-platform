@@ -10,7 +10,7 @@ const useInstructor = () => {
     enabled: !loading && !!user?.email, 
     queryFn: async () => {
       const response = await fetch(
-        `http://localhost:5000/users/instructor/${user?.email}`,
+        `https://online-learning-platform-server-red.vercel.app/users/instructor/${user?.email}`,
         {
           headers: {
             authorization: `bearer ${token}`,

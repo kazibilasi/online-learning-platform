@@ -6,7 +6,7 @@ import CoursesCard from './CoursesCard';
 const Courses = () => {
     const [courses, setCourses] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/courses')
+        fetch('https://online-learning-platform-server-red.vercel.app/courses')
             .then(res => res.json())
             .then(data => {
                 setCourses(data)

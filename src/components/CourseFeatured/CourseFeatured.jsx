@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const CourseFeatured = () => {
     const [courses, setCourses] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/courses')
+        fetch('https://online-learning-platform-server-red.vercel.app/courses')
             .then(res => res.json())
             .then(data => {
                 const course = data.slice(4, 7)
