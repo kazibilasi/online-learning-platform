@@ -10,7 +10,7 @@ const CourseDetails = () => {
     return (
         <div >
             <p className=' text-5xl text-center text-semibold text-green-500 mb-9 mt-9'>{loader.courseContent}</p>
-            <div className='lg:flex text-2xl  justify-evenly bg-slate-100 space-x-5 space-y-14 p-8 w-3/4 container mx-auto rounded-xl'>
+            <div className='lg:flex text-2xl justify-evenly bg-slate-100 space-x-5 lg:space-y-0 md:space-y-0 space-y-14 p-8 w-3/4 container mx-auto rounded-xl'>
                 <div>
                     <p>{loader.syllabus[0]}</p>
                     <p>{loader.syllabus[1]}</p>
@@ -21,7 +21,7 @@ const CourseDetails = () => {
                     <p>{loader.syllabus[6]}</p>
                     <p>{loader.syllabus[7]}</p>
                 </div>
-                <div className='lg:w-1/2'>
+                <div className='lg:w-1/3'>
                     <p>
                        <span className='font-semibold'>Instructor Name:</span> {name}
                     </p>

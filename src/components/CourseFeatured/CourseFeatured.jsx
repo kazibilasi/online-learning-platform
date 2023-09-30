@@ -9,7 +9,7 @@ const CourseFeatured = () => {
         fetch('http://localhost:5000/courses')
             .then(res => res.json())
             .then(data => {
-                const course = data.slice(0, 3)
+                const course = data.slice(4, 7)
                 console.log(course)
                 setCourses(course)
             })
@@ -18,7 +18,7 @@ const CourseFeatured = () => {
         <div className='lg:mt-[100px]'>
             <p className='text-green-400 text-center mt-10 font-medium text-xl'>Trending Courses</p>
             <p className='text-center text-2xl'>The ultimate planning solution for busy people who want to reach their personal goals</p>
-            <div className='lg:flex justify-evenly items-around gap-0'>
+            <div className=' grid lg:grid-cols-3 md:grid-cols-2 items-around gap-0'>
                 {
                     courses.map(item => <CoursesCard key={item._id} item={item}></CoursesCard>)
                 }

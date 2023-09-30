@@ -20,7 +20,7 @@ const ExploreCategory = () => {
                 </div>
                 <div className=' grid lg:grid-cols-2 gap-5 '>
                     <div>
-                        <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg?q=10&h=200" className='lg:w-[400px] lg:h-[300px]' alt="" />
+                        <img src="https://media.istockphoto.com/id/1406645290/photo/big-financial-data-theft-concept-an-anonymous-hacker-is-hacking-highly-protected-financial.webp?b=1&s=170667a&w=0&k=20&c=BvDOxXaDLWePQZOhOvN9Uf-5EYtMhW15SEhiWSeFMMc=" className='lg:w-[400px] lg:h-[300px]' alt="" />
                         <p className='-mt-10 ml-5 text-white text-xl font-semibold'>Ethical Hacking</p>
                     </div>
                     <div>

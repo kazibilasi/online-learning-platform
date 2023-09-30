@@ -1,10 +1,32 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const CoursesCard = ({ item }) => {
+    const {user}= useContext(AuthContext)
+    const navigate = useNavigate()
+    const location = useLocation()
     const { _id, courseContent, courseImage, courseName, price } = item
+    const courseDetailHandle = ()=>{
+      if(!user){
+        Swal.fire({
+            title: 'Please login to see course details',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Login Now'
+        }).then((result) => {
+            if (result.isConfirmed) {
+              navigate('/login', {state : {from : location}})
+            }
+        })
+      }
+    }
     return (
         <div className='lg:mt-20'>
        
@@ -17,8 +39,8 @@ const CoursesCard = ({ item }) => {
 
                     <h2 className="card-title">{courseContent}</h2>
                     <p>{courseName}</p>
-                    <div className="card-actions justify-end">
-                        <Link to={`/courseDetails/${_id}`}> <button className="btn btn-sm rounded-full">course details</button></Link>
+                    <div className="card-actions justify-end" onClick={courseDetailHandle}>
+                        <Link to={`/courseDetails/${_id}`}> <button  className="btn btn-sm rounded-full">course details</button></Link>
                     </div>
                 </div>
             </div>
