@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "courseName": "Introduction to Programming",
+        "courseImage": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "courseDuration": "8 weeks",
+        "courseContent": "Programming fundamentals",
+        "syllabus": [
+            "Week 1: Introduction to Programming",
+            "Week 2: Variables and Data Types",
+            "Week 3: Control Flow",
+            "Week 4: Functions",
+            "Week 5: Arrays and Lists",
+            "Week 6: Object-Oriented Programming",
+            "Week 7: Error Handling",
+            "Week 8: Final Project"
+        ],
+        "instructor": {
+            "name": "John Smith",
+            "information": "Senior Software Engineer with 10+ years of experience",
+            "email": "john.smith@example.com"
+        },
+        "aboutCourse": "This course provides a solid foundation in programming..."
+       
+    },
+    {
+        "id": 2,
+        "courseName": "Introduction to Marketing",
+        "courseImage": "https://media.photographycourse.net/wp-content/uploads/2022/04/08162245/photography-marketing-strategies.jpg",
+        "courseDuration": "8 weeks",
+        "courseContent": "Marketing fundamentals",
+        "syllabus": [
+            "Week 1: Introduction to Programming",
+            "Week 2: Variables and Data Types",
+            "Week 3: Control Flow",
+            "Week 4: Functions",
+            "Week 5: Arrays and Lists",
+            "Week 6: Object-Oriented Programming",
+            "Week 7: Error Handling",
+            "Week 8: Final Project"
+        ],
+        "instructor": {
+            "name": "Jonas Smith",
+            "information": "Senior Software Engineer with 10+ years of experience",
+            "email": "jonas.smith@example.com"
+        },
+        "aboutCourse": "This course provides a solid foundation in Marketing..."
+       
+    },
+    {
+        "id": 3,
+        "courseName": "Introduction to Machine Learning",
+        "courseImage": "https://images.squarespace-cdn.com/content/v1/5534618be4b0fc1dd67c939c/df194543-a30d-421c-94fb-24872f2e200f/AdobeStock_170135489.jpeg",
+        "courseDuration": "8 weeks",
+        "courseContent": "Machine Learning fundamentals",
+        "syllabus": [
+            "Week 1: Introduction to Programming",
+            "Week 2: Variables and Data Types",
+            "Week 3: Control Flow",
+            "Week 4: Functions",
+            "Week 5: Arrays and Lists",
+            "Week 6: Object-Oriented Programming",
+            "Week 7: Error Handling",
+            "Week 8: Final Project"
+        ],
+        "instructor": {
+            "name": "Red Smith",
+            "information": "Senior Software Engineer with 10+ years of experience",
+            "email": "red.smith@example.com"
+        },
+        "aboutCourse": "This course provides a solid foundation in Machine Learning..."
+       
+    },
+    {
+        "id": 4,
+        "courseName": "Introduction to Ethical Hacking",
+        "courseImage": "https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg?q=10&h=200",
+        "courseDuration": "8 weeks",
+        "courseContent": " Ethical Hacking",
+        "syllabus": [
+            "Week 1: Introduction to Programming",
+            "Week 2: Variables and Data Types",
+            "Week 3: Control Flow",
+            "Week 4: Functions",
+            "Week 5: Arrays and Lists",
+            "Week 6: Object-Oriented Programming",
+            "Week 7: Error Handling",
+            "Week 8: Final Project"
+        ],
+        "instructor": {
+            "name": "Lal Smith",
+            "information": "Senior Software Engineer with 10+ years of experience",
+            "email": "lal.smith@example.com"
+        },
+        "aboutCourse": "This course provides a solid foundation in Ethical Hacking..."
+       
+    },
+    {
+        "id": 5,
+        "courseName": "Introduction to Data Science",
+        "courseImage": "https://coruzant.com/wp-content/uploads/2022/06/artificial-intelligence-robot.jpg",
+        "courseDuration": "8 weeks",
+        "courseContent": "Data Science Fundamentals",
+        "syllabus": [
+            "Week 1: Introduction to Programming",
+            "Week 2: Variables and Data Types",
+            "Week 3: Control Flow",
+            "Week 4: Functions",
+            "Week 5: Arrays and Lists",
+            "Week 6: Object-Oriented Programming",
+            "Week 7: Error Handling",
+            "Week 8: Final Project"
+        ],
+        "instructor": {
+            "name": "Lion Smith",
+            "information": "Senior Software Engineer with 10+ years of experience",
+            "email": "lion.smith@example.com"
+        },
+        "aboutCourse": "This course provides a solid foundation in Data Science.."
+       
+    },
+    {
+        "id": 6,
+        "courseName": "Introduction to Web Development",
+        "courseImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "courseDuration": "8 weeks",
+        "courseContent": "Web Development Fundamentals",
+        "syllabus": [
+            "Week 1: Introduction to Programming",
+            "Week 2: Variables and Data Types",
+            "Week 3: Control Flow",
+            "Week 4: Functions",
+            "Week 5: Arrays and Lists",
+            "Week 6: Object-Oriented Programming",
+            "Week 7: Error Handling",
+            "Week 8: Final Project"
+        ],
+        "instructor": {
+            "name": "keith Smith",
+            "information": "Senior Software Engineer with 10+ years of experience",
+            "email": "keith.smith@example.com"
+        },
+        "aboutCourse": "This course provides a solid foundation in Web Development.."
+       
+    },
+
+    {
+        "id": 7,
+        "courseName": "Introduction to Graphics Design",
+        "courseImage": "https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg",
+        "courseDuration": "8 weeks",
+        "courseContent": "Graphics Design Fundamentals",
+        "syllabus": [
+            "Week 1: Introduction to Programming",
+            "Week 2: Variables and Data Types",
+            "Week 3: Control Flow",
+            "Week 4: Functions",
+            "Week 5: Arrays and Lists",
+            "Week 6: Object-Oriented Programming",
+            "Week 7: Error Handling",
+            "Week 8: Final Project"
+        ],
+        "instructor": {
+            "name": "rina Smith",
+            "information": "Senior Software Engineer with 10+ years of experience",
+            "email": "rina.smith@example.com"
+        },
+        "aboutCourse": "This course provides a solid foundation in Graphics Design.."
+       
+    }
+]
